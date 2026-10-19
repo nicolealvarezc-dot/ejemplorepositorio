@@ -19,11 +19,16 @@ body{
 }
 
 .header{
+    background-color: #0f0f0f;
     min-height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    border-bottom: 1px solid #FFFFFF29;
 }
 
 
@@ -45,7 +50,7 @@ body{
 }
 
 .sobreMi{
-    border-top: 1px solid #FFFFFF29;
+    margin-top: 170px;
     padding: 100px 0;
     display: flex;
     align-items: center;
@@ -117,6 +122,9 @@ body{
     padding: 15px;
     align-items: center;
     text-align: center;
+    font-size: 16px;
+    color: #818181;
+   
 }
 
 .card-contenido h3{
@@ -127,6 +135,9 @@ body{
     margin-bottom: 35px;
 }
 
+.card:hover{
+    background-color: #95db00;
+}
 
 
 

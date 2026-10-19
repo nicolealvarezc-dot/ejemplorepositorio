@@ -70,7 +70,7 @@ body{
 }
 
 .main-content{
-    margin-top:117px;
+    margin-top:115px;
     background:url("../images/fondo.png");
     background-attachment: fixed;
 }
@@ -88,4 +88,11 @@ body{
     height: 683px;
     background: var(--stroke);
     color: var(--white);
+    padding: 40px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
